@@ -1,0 +1,56 @@
+/** No CSS for this example */
+.open{
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    color: #fff;
+    margin: 0;
+    min-width: 64px;
+    line-height: 25px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+    transform: translate3d(0,0,0);
+    font-family: Muli, Helvetica Neue, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;                    
+    transition: .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);    
+} 
+
+
+    form {
+        width: 100%;
+        max-width: 800px !important;
+    }
+
+    .form-errors-model {
+        flex: 1;
+
+    }
+
+    .horizontal-stepper-wrapper,
+    .vertical-stepper-wrapper {
+        max-width: 800px;
+    }
+
+@media screen and (max-width: 767px){
+    .open{
+        min-width: 50px!important;
+        padding: 0 0px!important;
+        font-size: 10px!important;
+    } 
+}
